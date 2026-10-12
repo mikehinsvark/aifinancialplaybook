@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">AI FinServ Playbook</title>
+  <desc id="desc">An open financial playbook with an ascending AI data line.</desc>
+  <defs>
+    <linearGradient id="tile" x1="8" y1="5" x2="56" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102B52"/>
+      <stop offset="1" stop-color="#07172D"/>
+    </linearGradient>
+    <linearGradient id="data" x1="18" y1="43" x2="45" y2="25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#46D9FF"/>
+      <stop offset="1" stop-color="#7E8CFF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#tile)"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="15.25" fill="none" stroke="#5BCBFF" stroke-opacity=".34" stroke-width="1.5"/>
+  <path d="M12.5 19.5c6.8-3.5 13-2.2 19.5 2.2v29.1c-6.5-4.2-12.7-5.7-19.5-2.3V19.5Z" fill="#173D67" stroke="#80E3FF" stroke-opacity=".78" stroke-width="1.7" stroke-linejoin="round"/>
+  <path d="M51.5 19.5c-6.8-3.5-13-2.2-19.5 2.2v29.1c6.5-4.2 12.7-5.7 19.5-2.3V19.5Z" fill="#102D50" stroke="#80E3FF" stroke-opacity=".78" stroke-width="1.7" stroke-linejoin="round"/>
+  <path d="M18 41.2 25.5 34 31.1 37.3 43.8 24.8" fill="none" stroke="url(#data)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="m38.3 24.7 5.6.1-.1 5.6" fill="none" stroke="#A8EEFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="25.5" cy="34" r="1.7" fill="#E6FAFF"/>
+  <circle cx="31.1" cy="37.3" r="1.7" fill="#E6FAFF"/>
+</svg>
