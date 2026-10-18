@@ -155,7 +155,7 @@ html { overflow-x: clip; }
   position: relative;
   isolation: isolate;
   width: 100vw !important;
-  max-width: 1680px !important;
+  max-width: none !important;
   margin-left: calc(50% - 50vw) !important;
   overflow: hidden;
   background: #020a13 !important;
